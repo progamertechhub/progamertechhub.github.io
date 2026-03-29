@@ -186,6 +186,33 @@ nav {
     background: var(--border);
 }
 
+/* Main Container */
+    .review-section {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    /* Header Design */
+    .review-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+    .review-header p {
+        color: #aaa;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+    .price-tag {
+        font-size: 1.5rem;
+        color: #8b5cf6; /* Purple theme */
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
 .featured-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
