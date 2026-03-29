@@ -186,6 +186,54 @@ nav {
     background: var(--border);
 }
 
+.featured-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        background-color: #000; /* Dark background like the screenshot */
+    }
+
+    .product-card {
+        background: #111; /* Card background color */
+        border: 1px solid #333;
+        border-radius: 15px;
+        padding: 20px;
+        position: relative;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .product-tag {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: #8b5cf6; /* Purple color like image */
+        color: white;
+        font-size: 11px;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    .cta-button {
+        background: #6366f1;
+        color: white;
+        text-decoration: none;
+        padding: 12px;
+        border-radius: 8px;
+        text-align: center;
+        margin-top: 15px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .cta-button:hover {
+        background: #4f46e5;
+    }
+
 /* Feature Cards */
 .section-title {
     text-align: center;
